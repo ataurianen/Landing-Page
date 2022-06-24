@@ -61,20 +61,38 @@ button {
 }
 
 .middle {
-    
+    padding: 30px 80px;
 }
 
 .info-header-text {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+    text-align: center;
+    margin-bottom: 50px;
 
 }
 
 .container {
     display: flex;
+    justify-content: center;
+    gap: 40px;
+    
 
 }
 .small-container {
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+}
+
+.small-pic {
+    border: #3882f6 solid 3px;
+    border-radius: 6px;
+    width: 130px;
+}
+
+.small-pic-caption {
+    text-align: center;
     
 }
