@@ -120,5 +120,41 @@ button {
 }
 
 .bottom {
+    padding: 70px 200px;
+}
+
+.calltoaction-box {
+    padding: 40px 80px;
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 6px;
+    justify-content: center;
+}
+
+.call-header {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.call-subtext {
+    color: white;
+    font-size: 15px;
+}
+
+.button2 {
+    border: white solid 1px;
+    font-size: 15px;
+    margin-left: 40px;
     
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 30px; 
+}
+
+.footer-text {
+    color: white;
+    text-align: center;
+    font-size: 15px;
 }
